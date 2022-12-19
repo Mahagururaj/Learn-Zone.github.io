@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.608);
     width: auto;
     height: 75px;
     margin: auto;
@@ -26,12 +26,13 @@
 
 .logo{
     color: #ff0000;
-    font-size: 33px;
+    font-size: 30px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
-    margin-top: 5px
+    margin-top: 5px ;
+   
 }
 
 .menu{
@@ -51,9 +52,10 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 17px;
+    margin-left: 52px;
+    margin-top: 25px;
+    font-size: 22px;
+
 }
 
 ul li a{
@@ -65,7 +67,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: #ff0000;
 }
 
 .search{
@@ -81,7 +83,7 @@ ul li a:hover{
     background: transparent;
     border: 1px solid #ff0000;
     margin-top: 13px;
-    color: rgb(9, 9, 9);
+    color: rgb(227, 10, 10);
     border-right: none;
     font-size: 16px;
     float: left;
@@ -191,7 +193,7 @@ ul li a:hover{
 }
 
 ::placeholder{
-    color: #fff;
+    color: rgb(242, 17, 17);
     font-family: Arial;
 }
 
@@ -213,7 +215,7 @@ ul li a:hover{
 }
 .btnn a{
     text-decoration: none;
-    color: #000;
+    color: rgb(236, 229, 229);
     font-weight: bold;
 }
 .form .link{
